@@ -1,0 +1,46 @@
+.contact{
+    padding: 4rem 5rem;
+    width: 100%;
+   
+    
+}
+
+.contact .form{
+    text-align: center;
+}
+
+.contact .form .submit form input, .contact .form .submit form textarea{
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    padding: 15px 5px;
+    margin-bottom: 15px;
+}
+
+.contact .form .submit form button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact .form  h2{
+    margin-bottom: 20px;
+}
+
+
+
+
+@media screen and (max-width:1042px){
+    .contact{
+        padding: 4rem 3rem!important;
+    }
+}
+
+@media screen and (max-width:496px){
+    .contact{
+        padding: 4rem 1rem!important;
+    }
+}

@@ -1,0 +1,122 @@
+
+
+.about{
+    width: 100%;
+    padding: 0 5rem;
+    margin: 4rem 0px;
+}
+
+.about .about_list{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1.6rem 1rem;
+    box-shadow: 7px 6px 5px 0px rgba(110,105,105,0.75);
+    border: 1.1px solid lightgray;
+
+}
+
+.about .about_list .about_img{
+    width: 35%;
+    text-align: center;
+}
+
+.about .about_list .about_details{
+    width: 65%;
+    padding: 0.5rem;
+}
+
+.about_btn button{
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+.about_btn .hire{
+    margin-right: 6px;
+}
+
+.about_details p{
+    text-align: justify;
+}
+
+.about_img img{
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+
+
+}
+
+
+
+
+
+.about_details h4{
+    font-size: 1.4rem;
+}
+
+.about_details h5{
+    font-size: 1rem;
+    margin: 3px 0px;
+}
+
+@media screen and (max-width:1042px){
+    
+
+    .about{
+        padding: 0 3rem!important;
+    }
+
+    .about .about_list{
+        padding: 1.2rem 0.9rem!important;
+    }
+    
+}
+
+
+
+@media screen and (max-width:810px){
+    .about{
+        padding: 0 1.8rem!important;
+    }
+}
+
+@media screen and (max-width:768px){
+ 
+}
+
+@media screen and (max-width:496px){
+    .about{
+        padding: 0 1rem!important;
+    }
+
+    .about .about_list{
+        flex-direction: column!important;
+    
+    }
+
+    .about_img .test{
+        display: none!important;
+    
+    }
+
+    .about .about_list .about_img{
+        width: 100%!important;
+        text-align: left;
+    }
+
+    .about .about_list .about_details{
+        width: 100%;
+        padding: 0rem;
+        margin-top: 10px;
+    }
+    
+}
